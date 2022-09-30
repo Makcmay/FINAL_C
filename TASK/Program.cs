@@ -10,11 +10,11 @@ if (stroka.Length != 0)
     string[] result = new string[array.Length];
     int size = 0;
 
-    foreach (var elemen in array)
+    foreach (var element in array)
     {
-        if (elemen.Length <= 3)
+        if (element.Length <= 3)
         {
-            result[size] = elemen;
+            result[size] = element;
             size++;
         }
     }
